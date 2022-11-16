@@ -1,4 +1,3 @@
-import Controls from "./controls.js"
 import Sounds from "./sounds.js"
 
 export default function Timer({
@@ -40,7 +39,7 @@ export default function Timer({
       }
 
       if( seconds <= 0 ) {
-        seconds = 60
+        seconds = 6
         --minutes
 
       }
